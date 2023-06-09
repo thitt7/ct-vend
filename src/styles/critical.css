@@ -1637,7 +1637,8 @@ a:hover {
   height: -webkit-calc(100vh - 65px);
   height: calc(100vh - 65px);
   padding-top: 40px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
+  background-color: rgba(0,0,0,0.25);
 }
 .start-screen__slide .__bg {
   position: absolute;

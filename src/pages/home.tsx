@@ -10,7 +10,7 @@ export default function Home() {
                           <div className="container">
                               <div className="row">
                                   <div className="col-8 col-sm-8 col-lg-7">
-                                      <div className="__title text-black-50">CT Vending <span>is&nbsp;your new business partner</span></div>
+                                      <div className="__title banner-text">CT Vending <span>is&nbsp;your new business partner</span></div>
   
                                       <div className="spacer py-4"></div>
   
@@ -61,7 +61,7 @@ export default function Home() {
                                   <div className="spacer py-4"></div>
   
                                   <div className="d-none d-lg-block">
-                                      <a className="custom-btn custom-btn--big custom-btn--s1" href="#">More About</a>
+                                      <a className="custom-btn custom-btn--big custom-btn--s1" href="#0">More About</a>
                                   </div>
                               </div>
   
@@ -88,7 +88,7 @@ export default function Home() {
   
                                   <div className="d-lg-none">
                                       <div className="spacer py-4 d-lg-none"></div>
-                                      <a className="custom-btn custom-btn--big custom-btn--s1" href="#">More About</a>
+                                      <a className="custom-btn custom-btn--big custom-btn--s1" href="#0">More About</a>
                                   </div>
   
                               </div>
@@ -345,10 +345,10 @@ export default function Home() {
                                               <div className="col-6 col-md-4 col-lg-3">
                                                   <div className="__item">
                                                       <figure className="__image">
-                                                          <img className="lazy" src="img/blank.gif" width="145" height="245" data-src="img/icon-list_img/2/1.png" alt="demo" />
+                                                          <img src="img/icon-list_img/2/1.png" width="145" height="245" data-src="img/icon-list_img/2/1.png" alt="snack machine graphic" />
                                                       </figure>
   
-                                                      <h4><a href="#">Snack Machines</a></h4>
+                                                      <h4><a href="#0">Snack Machines</a></h4>
                                                   </div>
                                               </div>
                                               
@@ -357,10 +357,10 @@ export default function Home() {
                                               <div className="col-6 col-md-4 col-lg-3">
                                                   <div className="__item">
                                                       <figure className="__image">
-                                                          <img className="lazy" src="img/blank.gif" width="147" height="246" data-src="img/icon-list_img/2/2.png" alt="demo" />
+                                                          <img src="img/icon-list_img/2/2.png" width="147" height="246" data-src="img/icon-list_img/2/2.png" alt="demo" />
                                                       </figure>
   
-                                                      <h4><a href="#">Drink Machines</a></h4>
+                                                      <h4><a href="#0">Drink Machines</a></h4>
                                                   </div>
                                               </div>
                                               
@@ -369,10 +369,10 @@ export default function Home() {
                                               <div className="col-6 col-md-4 col-lg-3">
                                                   <div className="__item">
                                                       <figure className="__image">
-                                                          <img className="lazy" src="img/blank.gif" width="130" height="250" data-src="img/icon-list_img/2/4.png" alt="demo" />
+                                                          <img src="img/icon-list_img/2/4.png" width="130" height="250" data-src="img/icon-list_img/2/4.png" alt="demo" />
                                                       </figure>
   
-                                                      <h4><a href="#">Coffee Machines</a></h4>
+                                                      <h4><a href="#0">Coffee Machines</a></h4>
                                                   </div>
                                               </div>
                                               
@@ -381,10 +381,10 @@ export default function Home() {
                                               <div className="col-6 col-md-4 col-lg-3">
                                                   <div className="__item">
                                                       <figure className="__image">
-                                                          <img className="lazy" src="img/blank.gif" width="103" height="248" data-src="img/icon-list_img/2/15.png" alt="demo" />
+                                                          <img src="img/icon-list_img/2/15.png" width="103" height="248" data-src="img/icon-list_img/2/15.png" alt="demo" />
                                                       </figure>
   
-                                                      <h4><a href="#">ATM Machines</a></h4>
+                                                      <h4><a href="#0">ATM Machines</a></h4>
                                                   </div>
                                               </div>
   

@@ -1,3 +1,38 @@
+import ProductCard from "../components/productCard";
+
+const productArr = [
+	{
+		title: 'DORITOS® Nacho Cheese Flavored',
+		src: 'https://www.doritos.com/sites/doritos.com/files/2018-08/new-nacho-cheese.png',
+		price: '1'
+	},
+	{
+		title: 'Clif Bar - Crunchy Peanut Butter',
+		src: 'https://cdn.shopify.com/s/files/1/0341/0637/6325/products/10120022_DTC_CLF_CRP_2048x2048_068112ba-200e-4ed4-9655-38b5d4064c5f_768x.png?v=1670870346',
+		price: '2'
+	},
+	{
+		title: 'KIT KAT® Milk Chocolate Candy Bar',
+		src: 'https://s7d2.scene7.com/is/image/hersheysassets/0_34000_00246_7_701_24600_070_Item_Front?fmt=png-alpha&hei=3103',
+		price: '1.50'
+	},
+	{
+		title: 'SkinnyPop - White Cheddar Popped Popcorn',
+		src: 'https://www.skinnypop.com/wp-content/uploads/2018/11/white_cheddar_main@2x.png',
+		price: '1'
+	},
+	{
+		title: 'PLANTERS® Salted Peanuts, 1 Oz',
+		src: 'https://www.planters.com/wp-content/uploads/2022/05/web_640_PLANTERS_Salted-Peanuts-1-oz-packet.png',
+		price: '1.25'
+	},
+	{
+		title: "REESE'S Milk Chocolate Peanut Butter Cups Standard Size 1.5oz",
+		src: 'https://shop.hersheys.com/dw/image/v2/BCVS_PRD/on/demandware.static/-/Sites-master-us/default/dw8fd16f40/images/hi-res/034000004409_1.jpg?sw=700&sh=700&sm=fit',
+		price: '1.50'
+	},
+]
+
 const Products = () => {
     return (
         <>
@@ -28,144 +63,13 @@ const Products = () => {
 									<div className="__inner">
 										<div className="row">
 
-											<div className="col-12 col-md-6 col-lg-4 d-sm-flex">
-												<div className="__item">
-													<div className="d-flex flex-wrap">
-														<figure className="__image">
-															<img className="lazy" src="img/blank.gif" data-src="img/ingredients_img/1.png" alt="demo" />
-														</figure>
-
-														<div className="__content">
-															<h4 className="__title"><a href="#">Combo Machine Snack</a></h4>
-
-															<div className="product-price">
-																<span className="product-price__item product-price__item--new">10$</span>
-															</div>
-
-
-														</div>
-													</div>
-
-													<span className="product-label product-label--discount">Sale</span>
-												</div>
-											</div>
-											 
-
-											 
-											<div className="col-12 col-md-6 col-lg-4 d-sm-flex">
-												<div className="__item">
-													<div className="d-flex flex-wrap">
-														<figure className="__image">
-															<img className="lazy" src="img/blank.gif" data-src="img/ingredients_img/2.png" alt="demo" />
-														</figure>
-
-														<div className="__content">
-															<h4 className="__title"><a href="#">Combo Machine Snack</a></h4>
-
-															<div className="product-price">
-																<span className="product-price__item product-price__item--new">10$</span>
-															</div>
-
-															<div className="__btn">
-																<a className="__add-to-cart" href="#"><i className="fontello-shopping-cart"></i>Add to Cart</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-
-											
-											<div className="col-12 col-md-6 col-lg-4 d-sm-flex">
-												<div className="__item">
-													<div className="d-flex flex-wrap">
-														<figure className="__image">
-															<img className="lazy" src="img/blank.gif" data-src="img/ingredients_img/3.png" alt="demo" />
-														</figure>
-
-														<div className="__content">
-															<h4 className="__title"><a href="#">Combo Machine Snack</a></h4>
-
-															<div className="product-price">
-																<span className="product-price__item product-price__item--new">10$</span>
-															</div>
-
-															<div className="__btn">
-																<a className="__add-to-cart" href="#"><i className="fontello-shopping-cart"></i>Add to Cart</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-											 
-											<div className="col-12 col-md-6 col-lg-4 d-sm-flex">
-												<div className="__item">
-													<div className="d-flex flex-wrap">
-														<figure className="__image">
-															<img className="lazy" src="img/blank.gif" data-src="img/ingredients_img/4.png" alt="demo" />
-														</figure>
-
-														<div className="__content">
-															<h4 className="__title"><a href="#">Combo Machine Snack</a></h4>
-
-															<div className="product-price">
-																<span className="product-price__item product-price__item--new">10$</span>
-															</div>
-
-															<div className="__btn">
-																<a className="__add-to-cart" href="#"><i className="fontello-shopping-cart"></i>Add to Cart</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-											 
-											<div className="col-12 col-md-6 col-lg-4 d-sm-flex">
-												<div className="__item">
-													<div className="d-flex flex-wrap">
-														<figure className="__image">
-															<img className="lazy" src="img/blank.gif" data-src="img/ingredients_img/5.png" alt="demo" />
-														</figure>
-
-														<div className="__content">
-															<h4 className="__title"><a href="#">Combo Machine Snack</a></h4>
-
-															<div className="product-price">
-																<span className="product-price__item product-price__item--new">10$</span>
-															</div>
-
-															<div className="__btn">
-																<a className="__add-to-cart" href="#"><i className="fontello-shopping-cart"></i>Add to Cart</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-											 
-											<div className="col-12 col-md-6 col-lg-4 d-sm-flex">
-												<div className="__item">
-													<div className="d-flex flex-wrap">
-														<figure className="__image">
-															<img className="lazy" src="img/blank.gif" data-src="img/ingredients_img/6.png" alt="demo" />
-														</figure>
-
-														<div className="__content">
-															<h4 className="__title"><a href="#">Combo Machine Snack</a></h4>
-
-															<div className="product-price">
-																<span className="product-price__item product-price__item--new">10$</span>
-															</div>
-
-															<div className="__btn">
-																<a className="__add-to-cart" href="#"><i className="fontello-shopping-cart"></i>Add to Cart</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
+											{
+												productArr.map((e) => {
+													return (
+														<ProductCard title={e.title} src={e.src} price={e.price}/>
+													)
+												})
+											}
 											
 										</div>
 									</div>

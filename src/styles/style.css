@@ -68,8 +68,8 @@
   9.27 steps
   9.28 team
 -------------------------------------------------------------------*/
-.text-black {
-  color: #000000 !important
+.banner-text {
+  color: white;
 }
 
 html {
@@ -6058,7 +6058,7 @@ label {
 .advantages .__item {
   position: relative;
   width: 100%;
-  padding: 20px 0
+  padding: 20px 0;
 }
 .advantages .__ico {
   display: inline-block;

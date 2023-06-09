@@ -56,8 +56,7 @@ const Footer = () => {
               <div className="footer__item">
                 <a className="footer__logo site-logo" href="index.html">
                   <img
-                    className="lazy"
-                    src="img/blank.gif"
+                    src="img/site_logo/ctvendlogowhite.svg"
                     data-src="img/site_logo/ctvendlogowhite.svg"
                     width="155"
                     height="40"
