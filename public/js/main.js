@@ -1,4 +1,3 @@
-console.log('is this working')
 /*
 	Custom scripts start on 16452 line
 */
@@ -16682,7 +16681,6 @@ var trim = String.prototype.trim ?
       jHeader = $(nHeader)
       bNavAnchor    = jHeader.data('nav-anchor')
 		  bNavSticky    = jHeader.data('nav-fixed')
-      console.log('in header, jheader: ', jHeader)
 			if ( !nHeader ) return;
 
 			var jMenuLine      = jHeader.children('.top-bar__line-menu'),
@@ -16745,7 +16743,6 @@ var trim = String.prototype.trim ?
 
 			jMenuToggler.on('touchend click', function (e)
 			{
-        console.log('in toggler fn')
 				e.preventDefault();
 
 				var $this = $(this);
@@ -17440,3 +17437,17 @@ var trim = String.prototype.trim ?
 		};
 	};
 }(jQuery));
+
+// swap favicon for dark mode
+const faviconEl = document.querySelector('link[rel="icon"]')
+
+const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+mediaQuery.addEventListener('change', themeChange)
+
+function themeChange(event) {
+  if (event.matches) {
+    faviconEl.setAttribute('href', 'favicon-dark.png')
+  } else {
+    faviconEl.setAttribute('href', 'favicon-light.png')
+  }
+}

@@ -1,4 +1,4 @@
-
+import { Link, useLocation } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -243,7 +243,7 @@ export default function Home() {
                                                           </div>
   
                                                           <div className="__footer">
-                                                              <a className="custom-btn custom-btn--medium custom-btn--s1" href="/registration">More Info</a>
+                                                              <Link className="custom-btn custom-btn--medium custom-btn--s1" to="/registration?tier=1">Interested?</Link>
                                                           </div>
                                                       </div>
                                                   </div>
@@ -267,7 +267,7 @@ export default function Home() {
                                                           </div>
   
                                                           <div className="__footer">
-                                                              <a className="custom-btn custom-btn--medium custom-btn--s1" href="/registration">More Info</a>
+                                                          <Link className="custom-btn custom-btn--medium custom-btn--s1" to="/registration?tier=2">Interested?</Link>
                                                           </div>
                                                       </div>
                                                   </div>
@@ -292,7 +292,7 @@ export default function Home() {
                                                           </div>
   
                                                           <div className="__footer">
-                                                              <a className="custom-btn custom-btn--medium custom-btn--s1" href="/registration">More Info</a>
+                                                          <Link className="custom-btn custom-btn--medium custom-btn--s1" to="/registration?tier=3">Interested?</Link>
                                                           </div>
                                                       </div>
                                                   </div>
@@ -327,8 +327,8 @@ export default function Home() {
                                       <h1 className="__title">Services We Offer</h1>
   
                                       <p>
-                                           Our team strives to offer a number of services to suit the particular needs of your staff or customers. Interested in something we haven't listed? Just ask us and we'll
-                                          be able to work something out!
+                                           Our team strives to provide a variety of services tailored to suit the particular needs of your staff or customers. Interested in something we haven't listed? Just reach out and we'll
+                                           get a conversation started.
                                       </p>
                                   </div>
   

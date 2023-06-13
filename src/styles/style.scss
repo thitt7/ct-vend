@@ -6545,6 +6545,11 @@ label {
   margin-bottom: 15px
 }
 .footer {
+    .footer__item {height: 100%; margin: 0;
+      address {height: 100%; display: flex; flex-flow: column; justify-content: space-around;}
+    }
+}
+.footer {
   position: relative;
   background-color: #25272a;
   font-size: 1.6rem;
@@ -8118,6 +8123,11 @@ label {
 .team .__name {
   margin-top: 5px
 }
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
 @media (min-width:400px) {
   .product-brochure {
     background-position: -80px -15px

@@ -6,7 +6,7 @@ import Registration from './pages/registration';
 import Contact from './pages/contact';
 import Products from './pages/products';
 import './styles/critical.css';
-import './styles/style.css';
+import './styles/style.scss';
 
 export default function App() {
   return (

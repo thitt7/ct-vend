@@ -17,7 +17,7 @@ const Header = () => {
           <a className="top-bar__logo site-logo" href="/">
             <img
               className="img-fluid"
-              src="img/site_logo/ctvendlogofullv2.svg"
+              src="img/logo/ctvendlogofullv2.svg"
               width="150"
               height="75"
               alt="demo"
