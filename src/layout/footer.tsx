@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer__line footer__line--first">
           <div className="row justify-content-center">
             <div className="col-12 col-md-5 col-lg-4 col-xl-4">
-              <div className="footer__item">
+              <div className="contact footer__item">
                 <address className="footer__address">
                   <p>Richardson, TX</p>
                   <p>
@@ -28,19 +28,19 @@ const Footer = () => {
                   <nav className="footer__navigation">
                     <ul>
                       <li>
-                        <a href="#about">About Us</a>
+                        <a href="/#about">About Us</a>
                       </li>
                       <li>
-                        <a href="JavaScript:void(0);">Pages</a>
+                        <a href="/#packages">Packages</a>
                       </li>
                       <li>
-                        <a href="JavaScript:void(0);">Blog</a>
+                        <a href="/products">Products</a>
                       </li>
                       <li>
-                        <a href="JavaScript:void(0);">Shop</a>
+                        <a href="/registration">Registration</a>
                       </li>
                       <li>
-                        <a href="JavaScript:void(0);">Contacts</a>
+                        <a href="/contact">Contact</a>
                       </li>
                     </ul>
                   </nav>
@@ -56,8 +56,7 @@ const Footer = () => {
               <div className="footer__item">
                 <a className="footer__logo site-logo" href="index.html">
                   <img
-                    src="img/site_logo/ctvendlogowhite.svg"
-                    data-src="img/site_logo/ctvendlogowhite.svg"
+                    src="img/logo/ctvendlogowhite.svg"
                     width="155"
                     height="40"
                     alt="demo"
