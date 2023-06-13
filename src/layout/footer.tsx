@@ -69,7 +69,7 @@ const Footer = () => {
               <div className="footer__item">
                 <p className="__copy">
                   Copyright © {new Date().getFullYear()} CT Vending Powered by{' '}
-                  <a href="http://nuonse.com" target="_blank">
+                  <a href="http://nuonse.com" target="_blank" rel="noreferrer">
                     Nuonse
                   </a>{' '}
                   | <a href="JavaScript:void(0);">Terms & Privacy</a>
